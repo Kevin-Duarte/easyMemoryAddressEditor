@@ -1,6 +1,8 @@
 # easyMemoryAddressEditor
 Simple .h file that edits memory address for 32-bit and 64-bit. Only works on Windows OS!
 
+Note: Do not set MSVS to use **UNICODE** character-sets, instead set it to **not set**. If you do not know what this means, then you should be fine.
+
 Example: 
 ```
 #include <iostream>
