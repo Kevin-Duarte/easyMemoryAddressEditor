@@ -1,7 +1,7 @@
 # easyMemoryAddressEditor
 Simple .h file that edits memory address for 32-bit and 64-bit. Only works on Windows OS!
 
-Note: **Ignore this if you have not changed the character-set of MSVS. If you do not know what this means then you have probably not changed it.** Do not set MSVS to use **UNICODE** character-sets, instead set it to **Not Set** as the easyMemoryAddressEditor.h uses Multi-byte character sets. 
+**Read this if you changed the character-set of Visual Studio or if you are getting errors:** Do not set Visual Studio to use **UNICODE** character-sets, instead set it to **Not Set** as the easyMemoryAddressEditor.h uses Multi-byte character sets. To change this, go to Project -> Properties (ALT + F7) -> Configuration properties -> General -> Character Set
 
 Example: 
 ```
